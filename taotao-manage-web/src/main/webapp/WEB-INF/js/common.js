@@ -157,15 +157,12 @@ var TT = TAOTAO = {
      * width : 80% <br/>
      * height : 80% <br/>
      * title : (空字符串) <br/>
-     * 
      * 参数：<br/>
      * width : <br/>
      * height : <br/>
      * title : <br/>
      * url : 必填参数 <br/>
      * onLoad : function 加载完窗口内容后执行<br/>
-     * 
-     * 
      */
     createWindow : function(params){
     	$("<div>").css({padding:"5px"}).window({
