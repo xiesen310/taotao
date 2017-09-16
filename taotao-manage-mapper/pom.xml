@@ -61,4 +61,5 @@
         </resources>
 	</build>
 
+	<groupId>com.taotao</groupId>
 </project>
