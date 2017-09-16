@@ -8,4 +8,5 @@
 	</parent>
 	<artifactId>taotao-manage-pojo</artifactId>
 	<groupId>com.taotao</groupId>
+	<version>0.0.1-SNAPSHOT</version>
 </project>
