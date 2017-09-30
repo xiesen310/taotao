@@ -111,7 +111,6 @@ public class ContentCategoryServiceImpl implements ContentCategoryService {
 		contentCategory.setCreated(new Date());
 		contentCategory.setUpdated(new Date());
 		contentCategoryMapper.updateByPrimaryKey(contentCategory);
-		
 		return TaotaoResult.ok(contentCategory);
 	}
 
