@@ -76,7 +76,7 @@ public class HttpClientTest {
 		CloseableHttpClient httpClient = HttpClients.createDefault();
 		
 		// 创建一个post对象
-		HttpPost post = new HttpPost("http://localhost:8082/httpclient/post.html");
+		HttpPost post = new HttpPost("http://localhost:8082/httpclient/post.action");
 		// 创建一个Entity，模拟表单
 		List<NameValuePair> kvList = new ArrayList<>();
 		kvList.add(new BasicNameValuePair("username", "zhangsan"));
